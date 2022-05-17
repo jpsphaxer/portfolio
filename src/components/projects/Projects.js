@@ -49,7 +49,9 @@ function Projects() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" variant="contained" color="primary">
+                <Button size="small" variant="contained" color="primary"  onClick={() =>
+                    window.open("https://github.com/jpsphaxer/portfolio")
+                  }>
                   <span className="button-card">Go To Repository</span>
                 </Button>
               </CardActions>
