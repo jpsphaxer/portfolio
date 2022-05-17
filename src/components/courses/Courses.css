@@ -1,0 +1,45 @@
+.courses { 
+    padding-top: 80px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    font-size: 20px;
+    color: var(--white-col);
+   
+}
+
+.courses-title{
+    color:#1976d2;
+    text-align: left;
+    display: flex;
+    width: 400px;
+    height: 40px;
+    font-size: 40px;
+}
+.info{
+    
+    font-size: 12px;
+    color:#1976d2;
+   
+}
+
+.tables{
+    padding-left: 100px;
+    padding-right: 40px;
+}
+
+.head{
+    color:#1976d2;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.class-name{
+    color:black;
+    font-weight:600;
+}
+
+.lang{
+    font-weight: 600;
+}

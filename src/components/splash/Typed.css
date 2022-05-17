@@ -1,0 +1,12 @@
+.typed{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.typed-cursor{
+    font-size: 30px;
+    opacity: 1;
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;
+  }

@@ -1,0 +1,57 @@
+.projects { 
+   
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 20px;
+    color: var(--white-col);
+   
+}
+
+.projects-cards{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.partition-proj{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.proj-title{
+    color:#1976d2;
+    text-align: left;
+    display: flex;
+    width: 400px;
+    height: 40px;
+    font-size: 40px;
+    
+}
+
+.card-container{
+    padding:10px;
+}
+
+.button-card{
+    font-weight: bold;
+}
+
+.cards{
+    padding: 20px;
+}
+
+.cards:hover{
+    transition: transform 0.25s ease-in-out;
+    transform: scale3d(1.05,1.05,1);
+}
+
+.pictures{
+    height: 330px;
+    width: 100%;
+    object-fit:contain;
+
+}

@@ -1,0 +1,79 @@
+.card {
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  border: none;
+  border-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.job-listing-card {
+  margin-right: 0;
+  padding-top: 0%;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.position {
+  display: flex;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px;
+  color: black;
+  text-align: left;
+}
+.date {
+  font-size: 20px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  justify-content: right;
+}
+.job {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  flex: 1 1 0;
+}
+
+.job-desc {
+  text-align: left;
+  padding: 20px;
+  color: black;
+}
+
+.heading {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  margin: 10px 30px 0px 30px;
+  display: flex;
+  flex: 0 0 0;
+}
+
+.bull {
+  font-family: "Roboto", sans-serif;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* .card { 
+    background-color: white;
+    width: 80%;
+    padding:10px;
+    border-radius: 30;
+    text-align: left;
+} */
