@@ -5,6 +5,7 @@
     height: 100%;
     font-size: 20px;
     color: var(--white-col);
+    margin-left: 80px; 
    
 }
 
@@ -20,7 +21,7 @@
 
 .partition{
     padding: 0px;
-    margin-left: 100px; 
+   
     display: flex;
     flex-direction: row;
 

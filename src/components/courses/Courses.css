@@ -6,6 +6,7 @@
     height: 1200px;
     font-size: 20px;
     color: var(--white-col);
+    padding-left: 80px;
    
 }
 
@@ -25,8 +26,8 @@
 }
 
 .tables{
-    padding-left: 100px;
-    padding-right: 40px;
+    
+    
 }
 
 .head{
