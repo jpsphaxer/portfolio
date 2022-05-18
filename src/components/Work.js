@@ -25,9 +25,9 @@ function Work() {
           container
           direction="row"
           spacing={{ xs: 1 }}
-          columns={{ xs: 3, sm: 5, md: 12 }}
+          columns={{ xs: 1, sm: 5, md: 12 }}
         >
-          <Grid item xs={3} sm={4} md={2}>
+          <Grid item xs={3} sm={4} md={3}>
             <div className="menu">
               <Tabs
                 className="labels"
@@ -57,7 +57,7 @@ function Work() {
               </Tabs>
             </div>
           </Grid>
-            <Grid item xs={3} sm={5} md={9.5}>
+            <Grid item xs={5} sm={5} md={9}>
               <div className="listing">{<JobListing data={value} />}</div>
             </Grid>
         </Grid>

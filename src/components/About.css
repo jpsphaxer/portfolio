@@ -5,7 +5,8 @@
     height: 100%;
     font-size: 20px;
     color: var(--white-col);
-    margin-left: 80px; 
+    padding:5%;
+    /* margin-left: 80px;  */
    
 }
 
