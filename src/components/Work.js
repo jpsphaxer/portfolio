@@ -1,9 +1,9 @@
 import React from "react";
 import JobListing from "./JobListing";
 import data from "./content";
-import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
-import { Box, makeStyles, Tab, Tabs } from "@mui/material";
-import './Work.css'
+import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
+import { Box, Grid, makeStyles, Tab, Tabs, Item } from "@mui/material";
+import "./Work.css";
 
 function Work() {
   const [value, setValue] = React.useState(0);
@@ -17,19 +17,20 @@ function Work() {
   return (
     <div style={{ background: "#fff" }} className="work">
       <div className="order-rows">
-      <h1 className="title"><WorkHistoryIcon sx={{fontSize:45}}/> Work Experience</h1>
-        <div className="top-row">
-          <div className="menu">
-            <Box
-              sx={{
-                flexGrow: 1,
-                bgcolor: "primary",
-                display: "inline-block",
-                width: 300,
-                height: 224,
-              }}
-            >
+        <h1 className="title">
+          <WorkHistoryIcon sx={{ fontSize: 45 }} /> Work Experience
+        </h1>
+
+        <Grid className="grid"
+          container
+          direction="row"
+          spacing={{ xs: 1 }}
+          columns={{ xs: 3, sm: 5, md: 12 }}
+        >
+          <Grid item xs={3} sm={4} md={2}>
+            <div className="menu">
               <Tabs
+                className="labels"
                 indicatorColor="primary"
                 textColor="primary"
                 value={value}
@@ -43,10 +44,9 @@ function Work() {
                 }}
               >
                 {workplace.map((x, i) => (
-                  <Tab
-                    className="hello"
+                  <Tab 
                     key={i++}
-                    label={x.workplace}
+                    label={<div className="labels">{x.workplace}</div>}
                     sx={{
                       fontFamily: "Roboto",
                       fontSize: "20px",
@@ -55,10 +55,12 @@ function Work() {
                   ></Tab>
                 ))}
               </Tabs>
-            </Box>
-          </div>
-          <div className="listing">{<JobListing data={value} />}</div>
-        </div>
+            </div>
+          </Grid>
+            <Grid item xs={3} sm={5} md={9.5}>
+              <div className="listing">{<JobListing data={value} />}</div>
+            </Grid>
+        </Grid>
       </div>
     </div>
   );

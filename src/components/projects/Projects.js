@@ -21,7 +21,7 @@ function Projects() {
           </h1>
           <div>
             <span className="info">
-              These Following are Projects I have Worked On
+              The Following are Projects I have Worked On
             </span>
           </div>
         </div>
